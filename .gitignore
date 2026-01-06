@@ -1,0 +1,75 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Vite
+.vite/
+
+# Logs
+logs/
+*.log
+
+# dotenv environment variables
+.env
+.env.*.local
+.env.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+**/docker-compose.override.yml
+**/Dockerfile.*
+**/.docker/
+
+# Coverage
+coverage/
+*.lcov
+
+# Test output
+test-output/
+tests/output/
+
+# API specific
+API/.env
+API/node_modules/
+API/logs/
+API/coverage/
+API/dist/
+API/build/
+
+# Frontend specific
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/coverage/
+frontend/build/
+frontend/.cache/
+frontend/.vite/
+
+# Misc
+*.tgz
+*.zip
+*.tar
+*.gz
+
+# Ignore local git repos in subfolders (if centralizando git en raíz)
+API/.git/
+frontend/.git/

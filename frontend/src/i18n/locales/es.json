@@ -1,0 +1,98 @@
+{
+  "login": {
+    "title": "Bienvenido de Nuevo",
+    "titleRegister": "Crear Cuenta",
+    "subtitle": "Inicia sesión para continuar a tu panel",
+    "subtitleRegister": "Comienza a organizar tus tareas hoy",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordPlaceholder": "••••••••",
+    "signIn": "Iniciar Sesión",
+    "signUp": "Crear Cuenta",
+    "processing": "Procesando...",
+    "toggleQuestion": "¿No tienes una cuenta?",
+    "toggleQuestionRegister": "¿Ya tienes una cuenta?",
+    "toggleLink": "Regístrate",
+    "toggleLinkRegister": "Inicia sesión",
+    "security": "Protegido con seguridad de nivel empresarial",
+    "features": {
+      "ai": {
+        "title": "Tareas con IA",
+        "description": "Deja que la IA te ayude a desglosar proyectos complejos"
+      },
+      "analytics": {
+        "title": "Panel de Análisis",
+        "description": "Rastrea tu productividad con gráficos hermosos"
+      },
+      "secure": {
+        "title": "Seguro y Privado",
+        "description": "Tus datos están encriptados y protegidos"
+      }
+    },
+    "brandName": "TaskFlow"
+  },
+  "dashboard": {
+    "createTask": "Crear Tarea",
+    "logout": "Cerrar Sesión",
+    "welcomeBack": "Bienvenido de nuevo",
+    "readyToWork": "¿Listo para abordar tus tareas?",
+    "stats": {
+      "total": "Tareas Totales",
+      "completed": "Completadas",
+      "pending": "Pendientes",
+      "completionRate": "Tasa de Completado"
+    },
+    "charts": {
+      "title": "Estadísticas de Tareas",
+      "subtitle": "Resumen de tus tareas completadas"
+    },
+    "filters": {
+      "search": "Buscar tareas...",
+      "status": "Estado",
+      "all": "Todas las Tareas",
+      "completed": "Completadas",
+      "pending": "Pendientes",
+      "sortBy": "Ordenar por",
+      "newest": "Más Recientes",
+      "oldest": "Más Antiguas",
+      "showing": "Mostrando",
+      "of": "de",
+      "results": "resultados"
+    },
+    "taskList": {
+      "noTasks": "Aún no hay tareas",
+      "noTasksDescription": "¡Crea tu primera tarea para comenzar!",
+      "noResults": "No se encontraron tareas",
+      "noResultsDescription": "Intenta ajustar tus filtros o búsqueda",
+      "edit": "Editar",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "delete": "Eliminar"
+    },
+    "modal": {
+      "title": "Crear Nueva Tarea",
+      "subtitle": "Elige cómo quieres crear tus tareas",
+      "manualTab": "Entrada Manual",
+      "aiTab": "Asistente IA",
+      "taskTitle": "Título de la Tarea",
+      "taskPlaceholder": "Ej: Completar documentación del proyecto...",
+      "markCompleted": "Marcar como completada",
+      "markCompletedHelp": "Marca esto si la tarea ya está hecha",
+      "aiLabel": "Describe tus tareas",
+      "aiPlaceholder": "Ej: Mañana reunión a las 10, comprar víveres, llamar a Juan y terminar el reporte...",
+      "aiInfoTitle": "✨ Creación de Tareas con IA",
+      "aiInfoDescription": "Simplemente describe varias tareas en lenguaje natural. Nuestra IA las analizará inteligentemente y creará tareas individuales por ti. ¡Perfecto para crear tareas en lote!",
+      "createButton": "Crear Tarea",
+      "generateButton": "Generar con IA",
+      "creatingAI": "Creando magia...",
+      "cancelButton": "Cancelar"
+    }
+  },
+  "common": {
+    "error": "Error",
+    "success": "Éxito",
+    "loading": "Cargando...",
+    "noData": "No hay datos disponibles"
+  }
+}

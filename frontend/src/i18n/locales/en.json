@@ -1,0 +1,98 @@
+{
+  "login": {
+    "title": "Welcome Back",
+    "titleRegister": "Create Account",
+    "subtitle": "Sign in to continue to your dashboard",
+    "subtitleRegister": "Start organizing your tasks today",
+    "email": "Email Address",
+    "password": "Password",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "••••••••",
+    "signIn": "Sign In",
+    "signUp": "Create Account",
+    "processing": "Processing...",
+    "toggleQuestion": "Don't have an account?",
+    "toggleQuestionRegister": "Already have an account?",
+    "toggleLink": "Sign up",
+    "toggleLinkRegister": "Sign in",
+    "security": "Protected by enterprise-grade security",
+    "features": {
+      "ai": {
+        "title": "AI-Powered Tasks",
+        "description": "Let AI help you break down complex projects"
+      },
+      "analytics": {
+        "title": "Analytics Dashboard",
+        "description": "Track your productivity with beautiful charts"
+      },
+      "secure": {
+        "title": "Secure & Private",
+        "description": "Your data is encrypted and protected"
+      }
+    },
+    "brandName": "TaskFlow"
+  },
+  "dashboard": {
+    "createTask": "Create Task",
+    "logout": "Logout",
+    "welcomeBack": "Welcome back",
+    "readyToWork": "Ready to tackle your tasks?",
+    "stats": {
+      "total": "Total Tasks",
+      "completed": "Completed",
+      "pending": "Pending",
+      "completionRate": "Completion Rate"
+    },
+    "charts": {
+      "title": "Task Statistics",
+      "subtitle": "Overview of your task completion"
+    },
+    "filters": {
+      "search": "Search tasks...",
+      "status": "Status",
+      "all": "All Tasks",
+      "completed": "Completed",
+      "pending": "Pending",
+      "sortBy": "Sort by",
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "showing": "Showing",
+      "of": "of",
+      "results": "results"
+    },
+    "taskList": {
+      "noTasks": "No tasks yet",
+      "noTasksDescription": "Create your first task to get started!",
+      "noResults": "No tasks found",
+      "noResultsDescription": "Try adjusting your filters or search query",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "modal": {
+      "title": "Create New Task",
+      "subtitle": "Choose how you want to create your tasks",
+      "manualTab": "Manual Entry",
+      "aiTab": "AI Assistant",
+      "taskTitle": "Task Title",
+      "taskPlaceholder": "E.g: Complete project documentation...",
+      "markCompleted": "Mark as completed",
+      "markCompletedHelp": "Check this if the task is already done",
+      "aiLabel": "Describe your tasks",
+      "aiPlaceholder": "E.g: Tomorrow meeting at 10, buy groceries, call John, and finish the report...",
+      "aiInfoTitle": "✨ AI-Powered Task Creation",
+      "aiInfoDescription": "Simply describe multiple tasks in natural language. Our AI will intelligently parse and create individual tasks for you. Perfect for batch task creation!",
+      "createButton": "Create Task",
+      "generateButton": "Generate with AI",
+      "creatingAI": "Creating magic...",
+      "cancelButton": "Cancel"
+    }
+  },
+  "common": {
+    "error": "Error",
+    "success": "Success",
+    "loading": "Loading...",
+    "noData": "No data available"
+  }
+}

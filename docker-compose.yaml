@@ -1,0 +1,18 @@
+services:
+  api:
+    build: ./API
+    image: api-taskflow:latest
+    container_name: api-taskflow
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./API/.env
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    image: frontend-taskflow:latest
+    container_name: frontend-taskflow
+    ports:
+      - "5173:80"
+    restart: unless-stopped

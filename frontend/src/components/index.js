@@ -1,0 +1,9 @@
+export { default as Sidebar } from "./Sidebar";
+export { default as DashboardHeader } from "./DashboardHeader";
+export { default as StatsCards } from "./StatsCards";
+export { default as TasksCharts } from "./TasksCharts";
+export { default as TaskFilters } from "./TaskFilters";
+export { default as TaskList } from "./TaskList";
+export { default as TaskItem } from "./TaskItem";
+export { default as Pagination } from "./Pagination";
+export { default as TaskModal } from "./TaskModal";
