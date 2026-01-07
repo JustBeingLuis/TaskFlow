@@ -44,8 +44,12 @@
       "completionRate": "Completion Rate"
     },
     "charts": {
-      "title": "Task Statistics",
-      "subtitle": "Overview of your task completion"
+      "tasksDistribution": "Tasks Distribution",
+      "progressOverview": "Progress Overview",
+      "completionRate": "Completion Rate",
+      "completedTasks": "Completed Tasks",
+      "pendingTasks": "Pending Tasks",
+      "noData": "No data to display"
     },
     "filters": {
       "search": "Search tasks...",

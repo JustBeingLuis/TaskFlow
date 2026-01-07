@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   PieChart,
   Pie,
@@ -8,9 +9,19 @@ import {
 } from "recharts";
 
 function TasksCharts({ stats }) {
+  const { t } = useTranslation();
+
   const pieData = [
-    { name: "Completed", value: stats.completed, color: "#10b981" },
-    { name: "Pending", value: stats.pending, color: "#f59e0b" },
+    {
+      name: t("dashboard.charts.completedTasks"),
+      value: stats.completed,
+      color: "#10b981",
+    },
+    {
+      name: t("dashboard.charts.pendingTasks"),
+      value: stats.pending,
+      color: "#f59e0b",
+    },
   ];
 
   return (
@@ -18,7 +29,7 @@ function TasksCharts({ stats }) {
       {/* Pie Chart */}
       <div className="bg-white rounded-xl border border-gray-200 p-6">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">
-          Tasks Distribution
+          {t("dashboard.charts.tasksDistribution")}
         </h3>
         {stats.total > 0 ? (
           <ResponsiveContainer width="100%" height={250}>
@@ -43,7 +54,7 @@ function TasksCharts({ stats }) {
           </ResponsiveContainer>
         ) : (
           <div className="h-64 flex items-center justify-center text-gray-400">
-            No data to display
+            {t("dashboard.charts.noData")}
           </div>
         )}
       </div>
@@ -51,12 +62,14 @@ function TasksCharts({ stats }) {
       {/* Progress Card */}
       <div className="bg-white rounded-xl border border-gray-200 p-6">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">
-          Progress Overview
+          {t("dashboard.charts.progressOverview")}
         </h3>
         <div className="space-y-4 mt-8">
           <div>
             <div className="flex justify-between text-sm mb-2">
-              <span className="font-medium text-gray-700">Completion Rate</span>
+              <span className="font-medium text-gray-700">
+                {t("dashboard.charts.completionRate")}
+              </span>
               <span className="font-semibold text-blue-600">
                 {stats.completionRate}%
               </span>
@@ -72,7 +85,7 @@ function TasksCharts({ stats }) {
           <div className="pt-4 space-y-3">
             <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg">
               <span className="text-sm font-medium text-green-700">
-                Completed Tasks
+                {t("dashboard.charts.completedTasks")}
               </span>
               <span className="text-lg font-bold text-green-600">
                 {stats.completed}
@@ -80,7 +93,7 @@ function TasksCharts({ stats }) {
             </div>
             <div className="flex items-center justify-between p-3 bg-orange-50 rounded-lg">
               <span className="text-sm font-medium text-orange-700">
-                Pending Tasks
+                {t("dashboard.charts.pendingTasks")}
               </span>
               <span className="text-lg font-bold text-orange-600">
                 {stats.pending}

@@ -44,8 +44,12 @@
       "completionRate": "Tasa de Completado"
     },
     "charts": {
-      "title": "Estadísticas de Tareas",
-      "subtitle": "Resumen de tus tareas completadas"
+      "tasksDistribution": "Distribución de Tareas",
+      "progressOverview": "Resumen de Progreso",
+      "completionRate": "Tasa de Completado",
+      "completedTasks": "Tareas Completadas",
+      "pendingTasks": "Tareas Pendientes",
+      "noData": "No hay datos para mostrar"
     },
     "filters": {
       "search": "Buscar tareas...",
